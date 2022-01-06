@@ -11,7 +11,6 @@ class IsHamiltonian():
         visited = []
         i = 0
         v = unvisited.pop()
-        initial = v
         visited.append(v)
         while unvisited != 0:
             if len(visited) == len(list(graph.keys())):
