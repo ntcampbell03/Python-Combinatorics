@@ -1,3 +1,10 @@
+'''
+Determines if a given graph is hamiltonian.
+
+Parameters:
+    graph: a dictionary representing a graph.
+    eg. the K4 graph would be represented by {1:[2,3,4], 2:[1,3,4], 3:[1,2,4], 4:[1,2,3]}.
+'''
 class IsHamiltonian():
     def Checker(graph):
         unvisited = list(graph.keys())
